@@ -1,0 +1,14 @@
+[package]
+name = "pkcs11-bindings"
+version = "0.1.0"
+authors = ["Dana Keeler <dkeeler@mozilla.com>"]
+license = "MIT"
+
+build = "build.rs"
+edition = "2018"
+
+[dependencies]
+byteorder = "1.3"
+
+[build-dependencies]
+bindgen = { default-features = false, features = ["runtime"], version = "0.59" }
