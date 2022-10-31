@@ -78,6 +78,8 @@ fn main() {
         .allowlist_var("CK_TRUE")
         .allowlist_var("CK_FALSE")
         .allowlist_var("CK_UNAVAILABLE_INFORMATION")
+        .allowlist_var("CK_EFFECTIVELY_INFINITE")
+        .allowlist_var("CK_INVALID_HANDLE")
         .allowlist_var("CKA_.*")
         .allowlist_var("CKC_.*")
         .allowlist_var("CKF_.*")
