@@ -82,6 +82,7 @@ fn main() {
         .allowlist_var("CK_INVALID_HANDLE")
         .allowlist_var("CKA_.*")
         .allowlist_var("CKC_.*")
+        .allowlist_var("CKD_.*")
         .allowlist_var("CKF_.*")
         .allowlist_var("CKK_.*")
         .allowlist_var("CKM_.*")
