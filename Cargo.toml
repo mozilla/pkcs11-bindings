@@ -10,4 +10,4 @@ build = "build.rs"
 edition = "2018"
 
 [build-dependencies]
-bindgen = { default-features = false, features = ["runtime"], version = ">= 0.59.2" }
+bindgen = { default-features = false, features = ["runtime"], version = ">= 0.59.2, < 0.70" }
