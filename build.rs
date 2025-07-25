@@ -46,6 +46,7 @@ fn main() {
         .allowlist_var("CKO_.*")
         .allowlist_var("CKR_.*")
         .allowlist_var("CKS_.*")
+        .allowlist_var("CKT_.*")
         .derive_default(true)
         .parse_callbacks(Box::new(PKCS11TypesParseCallbacks))
         .generate()
